@@ -4,3 +4,4 @@
 .idea
 yarn.lock
 *.pyc
+client/.next/
