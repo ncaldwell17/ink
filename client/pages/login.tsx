@@ -1,20 +1,12 @@
 // General
-import React from 'react';
+import React from "react";
 
-// Ink
-
-export const LoginComponent: React.FC = () => {
+const Login: React.FC = () => {
     return (
-        <h1>Login!</h1>
-    )
-}
-
-const LoginPage = () => {
-    return (
-        <div>
-            <LoginComponent />
+        <div className="flex items-center justify-center h-screen bg-gray-100">
+            <h1 className="text-4xl text-blue-500 font-bold">Login Page</h1>
         </div>
-    )
+    );
 }
 
-export default LoginPage;
+export default Login;

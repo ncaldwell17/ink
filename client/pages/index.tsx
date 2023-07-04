@@ -32,7 +32,7 @@ export const TestComponent: React.FC = () => {
 
 export async function getServerSideProps(context) {
     // Check if the user is authenticated
-    const isAuthenticated = true; // replace this
+    const isAuthenticated = false; // replace this
 
     if (!isAuthenticated) {
         return {
